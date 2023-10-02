@@ -1,27 +1,13 @@
 <!-- hide -->
-# Integrating with the Twitter API Project Tutorial
+# API Connection and Data Mining
 <!-- endhide -->
 
-1. Create a Twitter developer application using the Twitter Developer Portal.
-2. Connect with the Twitter API 
-3. Retrieve and download data from the Twitter API.
-4. Create a python pandas dataframe for easier manipulation of the data.
-5. Save the data into a SQL database.
+One of the best ways to access to data is via an API, which makes your life easier. Not all API are free and require a paid subscription.
+Understanding how to make calls to an API or connect an API to your app is a key skill to have, as it will make your life easier. 
 
-Inside this repository, you will find a file called `./INSTRUCTIONS.md` with the steps needed to complete it.
+## 📔 Key Takes
 
-## 🌱  How to start this project
+APIs normally have documentation ready for you to use which is essential. There's also python packages wich make this connection easier for you, but the key is that you can connect to API whatever way, with or without proper packages. 
+In this project I used Spotipy to connect to Spotify API and request data to analyze an hypothesis. It was a seamingless process and the call for that was transformed into a dataframe to be able to work on it and analyze the data. 
 
-The easiest way to start working on this project is by using Gitpod:
 
-1. Make a fork of [this repository](https://github.com/4geeksacademy/interacting-with-the-twitter-api-project-tutorial) into your github account.
-2. Open the recently created fork on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening you can go ahead and open the `problems.ipynb` file and start solving each exercise inside the notebook.
-
-## 🚛 How to deliver this project
-
-Once you are finished solving the exercises, make sure to commit your changes, push to your repository fork and go to 4Geeks.com to upload the repository link.
-
-## Solutions
-
-We also incorporated the solution samples on `./src/solution.md` that we strongly suggest you only use if you are stuck for more than 30min or if you have already finished and want to compare it with your approach.
